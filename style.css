@@ -33,7 +33,9 @@ a {
 *::before {
   box-sizing: border-box;
 }
+/* #endregion */
 
+/* #region VARIABLE*/
 :root {
   --color-grey: #757575;
   --color-blue: #2196f3;
