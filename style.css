@@ -40,7 +40,7 @@ a {
   --color-grey: #757575;
   --color-blue: #2196f3;
   --color-white: #ffffff;
-  --color-link: #ffffff99;
+  --color-link--light-gray: #ffffff99;
   --background-color: #2f303a;
 }
 /* #endregion */
@@ -79,25 +79,16 @@ a {
 
 .header__contacts {
   margin-left: auto;
-  
+
   display: flex;
   gap: 50px;
 }
 
-.contacts__link--header {
-  display: flex;
-  align-items: center;
 
-  font-weight: 500;
-  font-size: 14px;
-  font-style: normal;
-  letter-spacing: 0.02;
-
-  color: var(--color-grey);
-}
 /* #endregion */
 
 /* #region LOGO */
+
 .logo {
   display: flex;
   align-items: center;
@@ -107,6 +98,29 @@ a {
   font-weight: 700;
   letter-spacing: 0.03;
 }
+
+.logo--footer {
+  color: var(--color-white);
+}
+/* #endregion */
+
+/* #region SECTION */
+
+.section {
+  padding: 94px 0;
+}
+
+.section__title {
+  margin: 0 0 50px;
+  text-align: center;
+
+  line-height: 42px;
+
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03;
+}
+
 /* #endregion */
 
 /* #region BANNER */
@@ -159,7 +173,7 @@ a {
 /* #region FEATURES */
 
 .features {
-  padding: 94px 0;
+  padding-bottom: 0;
 }
 
 .features__list {
@@ -189,7 +203,6 @@ a {
 
 /* #region SERVICES */
 .services {
-  padding: 0 0 94px;
 }
 
 .services__list {
@@ -203,9 +216,8 @@ a {
 /* #endregion */
 
 /* #region TEAM */
-.team {
-  padding: 94px 0;
 
+.team {
   background-color: #f5f4fa;
 }
 
@@ -255,55 +267,51 @@ a {
   padding: 60px 0;
 
   background-color: var(--background-color);
-  color: var(--color-white);
 }
 
-.footer__contacts {
-  padding: 20px 0 0;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 9px;
-}
-.contacts__link--footer {
-  display: flex;
-
-  line-height: 24px;
-
-  font-size: 14px;
-  font-style: normal;
-  letter-spacing: 0.03;
-
-  color: var(--color-link);
+.footer__logo {
+  margin: 0 0 20px;
 }
 
-.contacts__link--footer:nth-child(-n + 1) {
-  color: var(--color-white);
-}
 /* #endregion */
 
 /* #region DETAILS */
 .logo__web,
 .is-active,
 .nav__item:hover,
-.contacts__link--header:hover,
-.contacts__link--footer:hover {
+.contacts__link:hover {
   color: var(--color-blue);
 }
-
+/* #region CONTACTS */
 .contacts {
   display: flex;
 }
 
-.title {
-  margin: 0 0 50px;
-  text-align: center;
-
-  line-height: 42px;
-
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 0.03;
+.contacts--footer {
+  flex-direction: column;
+  gap: 9px;
 }
+
+.contacts__link {
+  display: flex;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.02em;
+
+  line-height: 21px;
+
+  color: var(--color-grey);
+}
+
+.contacts__link--footer {
+  color: var(--color-link--light-gray);
+}
+
+.contacts__link--footer:nth-child(1) {
+  color: var(--color-white);
+}
+
 /* #endregion */
