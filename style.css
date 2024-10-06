@@ -79,6 +79,8 @@ a {
 
 .header__contacts {
   margin-left: auto;
+  
+  display: flex;
   gap: 50px;
 }
 
