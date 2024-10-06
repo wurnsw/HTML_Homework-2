@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./style.css" />
     <title>WebStudio</title>
   </head>
+
   <body>
     <header class="header">
       <div class="container">
@@ -33,23 +34,24 @@
             </ul>
           </nav>
           <address class="header__contacts contacts">
-            <a class="contacts__link--header" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-            <a class="contacts__link--header" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="contacts__link" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+            <a class="contacts__link" href="tel:+380961111111">
+              +38 096 111 11 11
+            </a>
           </address>
         </div>
       </div>
     </header>
+
     <main class="main">
-      <section class="main__banner banner">
+      <section class="banner">
         <h1 class="banner__title">Ефективні рішення для вашого бізнесу</h1>
         <button class="banner__button button">Замовити послугу</button>
       </section>
 
-      <section class="main__features features">
+      <section class="section features">
         <div class="container">
           <ul class="features__list">
             <li class="features__item feature">
@@ -59,7 +61,7 @@
                 формування позиції.
               </p>
             </li>
-            <li class="features__item feature">
+            <li class="feature">
               <h3 class="feature__title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="feature__description">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -83,9 +85,9 @@
         </div>
       </section>
 
-      <section class="main__services services">
+      <section class="section services">
         <div class="container">
-          <h2 class="services__title title">Чим ми займаємося</h2>
+          <h2 class="services__title section__title">Чим ми займаємося</h2>
           <ul class="services__list">
             <li class="services__item service">
               <img
@@ -115,9 +117,9 @@
         </div>
       </section>
 
-      <section class="main__team team">
+      <section class="section team">
         <div class="container">
-          <h2 class="team__title title">Наша команда</h2>
+          <h2 class="team__title section__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__card person">
               <img
@@ -145,7 +147,7 @@
               </div>
             </li>
 
-            <li class="team__card person">
+            <li class="person">
               <img
                 class="person__image"
                 src="./images/team--3.jpg"
@@ -177,23 +179,30 @@
 
     <footer class="footer">
       <div class="container">
-        <a class="footer__logo logo" href="./index.html">
+        <a class="footer__logo logo logo--footer" href="./index.html">
           <span class="logo__web">Web</span>Studio</a
         >
 
-        <address class="footer__contacts contacts">
+        <address class="contacts contacts--footer">
           <a
-            class="contacts__link--footer"
+            class="contacts__link contacts__link--footer"
             href="https://maps.app.goo.gl/sZJowedy8QahNWcp7"
             target="_blank"
-            >м. Київ, пр-т Лесі Українки, 26</a
           >
-          <a class="contacts__link--footer" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+            м. Київ, пр-т Лесі Українки, 26
+          </a>
+          <a
+            class="contacts__link contacts__link--footer"
+            href="mailto:info@devstudio.com"
           >
-          <a class="contacts__link--footer" href="tel:+380961111111"
-            >+38 096 111 11 11</a
+            info@devstudio.com
+          </a>
+          <a
+            class="contacts__link contacts__link--footer"
+            href="tel:+380961111111"
           >
+            +38 096 111 11 11
+          </a>
         </address>
       </div>
     </footer>
