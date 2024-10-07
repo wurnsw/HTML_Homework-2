@@ -127,7 +127,6 @@ a {
 .contacts__link--footer:nth-child(1) {
   color: var(--color-white);
 }
-
 .contacts__link--footer:nth-child(1):hover {
   color: var(--color-blue);
 }
