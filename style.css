@@ -1,4 +1,4 @@
-/* #region REST */
+/* #region RESET */
 
 body,
 h1,
@@ -67,8 +67,6 @@ a {
 
 .header__contacts {
   margin-left: auto;
-
-  gap: 50px;
 }
 /* #endregion */
 
@@ -90,8 +88,14 @@ a {
   letter-spacing: 0.02em;
 }
 
-.is-active,
 .nav__item:hover {
+  color: var(--color-blue);
+}
+/* #endregion */
+
+/* #region ACTIVE */
+
+.is-active {
   color: var(--color-blue);
 }
 /* #endregion */
@@ -100,6 +104,12 @@ a {
 
 .contacts {
   display: flex;
+  gap: 50px;
+}
+
+.contacts--footer {
+  flex-direction: column;
+  gap: 9px;
 }
 
 .contacts__link {
@@ -118,11 +128,6 @@ a {
 
 .contacts__link:hover {
   color: var(--color-blue);
-}
-
-.contacts--footer{
-  flex-direction: column;
-  gap: 9px;
 }
 
 .contacts__link--footer {
@@ -151,6 +156,9 @@ a {
   color: var(--color-blue);
 }
 
+.logo--footer {
+  color: var(--color-white);
+}
 /* #endregion */
 
 /* #region SECTION */
@@ -324,9 +332,5 @@ a {
 
 .footer__logo {
   margin: 0 0 20px;
-}
-
-.logo--footer {
-  color: var(--color-white);
 }
 /* #endregion */
