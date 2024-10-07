@@ -120,11 +120,6 @@ a {
   color: var(--color-blue);
 }
 
-.contacts--footer {
-  flex-direction: column;
-  gap: 9px;
-}
-
 .contacts__link--footer {
   color: var(--color-link-footer);
 }
@@ -324,6 +319,11 @@ a {
 
 .footer__logo {
   margin: 0 0 20px;
+}
+
+.footer__contacts{
+  flex-direction: column;
+  gap: 9px;
 }
 
 .logo--footer {
