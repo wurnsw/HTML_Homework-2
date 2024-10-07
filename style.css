@@ -60,6 +60,10 @@ a {
 .header__content {
   display: flex;
 }
+
+.header__logo {
+  margin-right: 93px;
+}
 /* #endregion */
 
 /* #region NAV */
@@ -148,17 +152,6 @@ a {
   color: var(--color-blue);
 }
 
-.header__logo {
-  margin-right: 93px;
-}
-
-.footer__logo {
-  margin: 0 0 20px;
-}
-
-.logo--footer {
-  color: var(--color-white);
-}
 /* #endregion */
 
 /* #region SECTION */
@@ -329,5 +322,13 @@ a {
   padding: 60px 0;
 
   background-color: var(--background-color);
+}
+
+.footer__logo {
+  margin: 0 0 20px;
+}
+
+.logo--footer {
+  color: var(--color-white);
 }
 /* #endregion */
